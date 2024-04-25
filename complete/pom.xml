@@ -38,4 +38,16 @@
 		</plugins>
 	</build>
 
+
+	<profile>
+    <id>jdk-11</id>
+    <activation>
+        <activeByDefault>true</activeByDefault>
+    </activation>
+    <properties>
+        <maven.compiler.release>11</maven.compiler.release>
+    </properties>
+</profile>
+
+
 </project>
